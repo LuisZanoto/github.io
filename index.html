@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Estático no GitHub Pages</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #007bff;
+            color: white;
+            border-radius: 8px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: white;
+            border-left: 4px solid #007bff;
+        }
+        button {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Meu Site Estático!</h1>
+        <p>Este é um exemplo simples hospedado no GitHub Pages.</p>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Recursos Principais</h2>
+            <ul>
+                <li>Hospedagem gratuita e automática via GitHub.</li>
+                <li>Suporte a HTML, CSS e JavaScript estáticos.</li>
+                <li>Domínio personalizado disponível.</li>
+            </ul>
+        </section>
+        
+        <section>
+            <button onclick="mostrarAlerta()">Clique para um Alerta!</button>
+        </section>
+    </main>
+    
+    <script>
+        function mostrarAlerta() {
+            alert('Olá! Este site é gerado a partir de um repositório GitHub.');
+        }
+    </script>
+</body>
+</html>
